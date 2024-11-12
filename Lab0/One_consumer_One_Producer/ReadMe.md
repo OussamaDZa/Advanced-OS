@@ -28,8 +28,8 @@ The buffer size is set to 4, meaning it can hold up to 4 items at a time.
 1. Clone this repository to your local machine.
 2. Compile the code:
     ```bash
-    gcc producer.c -o producer -lpthread -lrt
-    gcc consumer.c -o consumer -lpthread -lrt
+    gcc producer.c shared.c -o producer -lpthread
+    gcc consumer.c shared.c -o consumer -lpthread
     ```
 3. Run the producer and consumer processes:
     ```bash
