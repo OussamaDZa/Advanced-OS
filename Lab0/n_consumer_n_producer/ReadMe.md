@@ -26,7 +26,8 @@ Make sure you have the following installed:
 To compile the program, use the following command:
 
 ```bash
-gcc -o producer_consumer producer_consumer.c -pthread
+gcc producer.c shared.c -o producer -lpthread
+gcc consumer.c shared.c -o consumer -lpthread
 ```
 
 ## Usage
