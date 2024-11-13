@@ -172,7 +172,9 @@ For specific changes I use "grep" commands:
 
 ## **2.Compiling the Kernel**:
 
-![](./image15.png)We use the 'menuconfig' for create
+![](./image15.png)
+
+We use the 'menuconfig' for create
         .config file
 
 -   Run 'make' in the kernel source directory.
