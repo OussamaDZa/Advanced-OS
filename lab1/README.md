@@ -172,12 +172,12 @@ For specific changes I use "grep" commands:
 
 ## **2.Compiling the Kernel**:
 
-       ![](./image15.png)We use the 'menuconfig' for create
+![](./image15.png)We use the 'menuconfig' for create
         .config file
 
-    -   Run 'make' in the kernel source directory.
+-   Run 'make' in the kernel source directory.
 
-    -   Kernel compilation took approximately X hours (depends on your
+-   Kernel compilation took approximately X hours (depends on your
         system). it's took 5h execution for me.
 
 ## **3.Compiling and Installing Modules**:
